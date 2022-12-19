@@ -5,40 +5,27 @@ Main file for testing
 
 minOperations = __import__('0-minoperations').minOperations
 
-n = 26 
+for i in range(1, 100):
+    print("Min number of operations to reach {} characters: {}".format(i, minOperations(i)))
+
+""" n = 4
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
 
-n = 12 
+n = 3
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
 
-# Test cases
-
-n = 8
-print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
-
-n = 14
-print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
-
-n = 15
-print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
-
-n = 21
-print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
-
-n = 24
-print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
-
-n = 7
-print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
-
-n = 9
-print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
-
-n = 1
+n = 12
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
 
 n = 25
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
 
-n = 50
+n = 6
 print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
+
+n = 9
+print("Min number of operations to reach {} characters: {}".format(n, minOperations(n)))
+
+n = 2
+print("Min number of operations to reach {} characters: {}".format(n, minOperations(n))) 
+"""
